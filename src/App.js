@@ -1,8 +1,11 @@
 import React from 'react';
+import { dataClasses } from 'hibp'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log(dataClasses.toString());
+
   return (
     <div className="App">
       <header className="App-header">
